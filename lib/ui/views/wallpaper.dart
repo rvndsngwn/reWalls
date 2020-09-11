@@ -117,8 +117,8 @@ class _WallpaperPageState extends State<WallpaperPage>
       width: double.infinity,
       decoration: BoxDecoration(
         borderRadius: BorderRadius.only(
-          topLeft: Radius.circular(8.0),
-          topRight: Radius.circular(8.0),
+          topLeft: Radius.circular(4.0),
+          topRight: Radius.circular(4.0),
         ),
         color: themeData.primaryColorDark.withOpacity(0.9),
       ),
